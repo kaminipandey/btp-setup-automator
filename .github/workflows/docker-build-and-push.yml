@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: ghcr.io
+  REGISTRY: containers-lab.pkg.github.com
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
